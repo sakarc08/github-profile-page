@@ -1,0 +1,74 @@
+.account-details-container {
+  float: left;
+  width: 75%;
+  padding-left: 8px; }
+
+.filter-section {
+  margin-top: 15px; }
+
+.repository-details-container {
+  background: green;
+  position: static;
+  top: 0;
+  left: 787px;
+  width: 727px;
+  background-color: #fff;
+  border-bottom: solid 1px #d1d5da;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.repo-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d67cf; }
+
+.repo-description {
+  color: #586069;
+  margin: 8px 0;
+  display: inline-block; }
+
+.language-details-container {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #586069;
+  margin-bottom: 15px; }
+
+.repo-language-icon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; }
+
+.yellow {
+  background-color: #f1e05a; }
+
+.blue {
+  background-color: #375eab; }
+
+.dark-green {
+  background-color: #2b7489; }
+
+.language-text {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #586069; }
+
+.last-updated-details {
+  color: #586069;
+  font-size: 12px; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .account-details-container {
+    display: block;
+    width: 100%;
+    margin-top: 2%; }
+  .repository-details-container {
+    margin-top: 15px;
+    width: 100%; }
+  .repo-title {
+    font-size: 15px; }
+  .repo-description {
+    font-size: 10px; } }
