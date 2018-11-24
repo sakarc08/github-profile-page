@@ -1,0 +1,157 @@
+.search{
+    padding-right: 24px;
+    width: 63%;
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: middle;
+    
+    .search-input {
+        min-height: 34px;
+        padding: 6px 8px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24292e;
+        vertical-align: middle;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right 8px center;
+        border: 1px solid #d1d5da;
+        border-radius: 3px;
+        outline: none;
+        box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+.type-selector-container {
+    text-align: right;
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.type-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.filter-container {
+    display: table;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+    border-color: #d1d5da ;
+    border-bottom: 1px #e1e4e8 solid;
+}
+
+.type-dropdown-open {
+    position: relative;
+    z-index: 30;
+    display: block;
+    right: 100px;
+}
+
+.select-menu-container {
+    text-align: right;
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    .select-menu-button {
+        color: #24292e;
+        background-color: #eff3f6;
+        background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    }
+}
+.select-menu {
+    position: relative;
+    width: 300px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #586069;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,0.15);
+    border-radius: 3px;
+    box-shadow: 0 3px 12px rgba(27,31,35,0.15);
+}
+
+.select-menu-header {
+    padding: 8px 10px;
+    line-height: 16px;
+    background: #f6f8fa;
+    border-bottom: 1px solid #e1e4e8;
+    text-align: left;
+}
+
+.select-menu-title {
+    font-weight: 600;
+    color: #24292e;
+}
+
+.select-menu-list {
+    position: relative;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.menu-item {
+    text-align: left;
+    background-color: #fff;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    display: block;
+    padding: 8px 8px 8px 30px;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 1px solid #eaecef;
+    width: 100%;
+}
+
+.menu-item .selected {
+    color: #24292e;
+}
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-repeat: repeat-x;
+    background-position: -1px -1px;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 0.25em;
+    margin-left: 10px;
+}
+
+.btn-label {
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.new-button {
+    color: #fff;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+    text-decoration: none
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+      .filter-container {
+        display: none;
+      }    
+  }
